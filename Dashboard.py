@@ -359,7 +359,7 @@ def get_market_status():
     
     # Weekend (vendredi = 4, samedi = 5 en Python)
     if israel_weekday >= 4:
-        return "סגור (סופ"ש) / Fermé (weekend)", "🔴"
+        return "סגור (סופ ש) / Fermé (weekend)", "🔴"
     
     # Jours fériés
     if israel_date in ISRAELI_HOLIDAYS_2024:
